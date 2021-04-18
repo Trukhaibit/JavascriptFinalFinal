@@ -1,0 +1,42 @@
+body {
+	background-color: black;
+	font-family: 'Fredoka One', cursive;
+	color: white;
+	background-image:url('../media/paintController.png');
+	background-repeat:no-repeat;
+	background-position:top left;
+	width: 95%;
+}
+h1 {
+	background-color: blue;
+	margin: 0px;
+	padding: 10px;
+	width: 90%;
+}
+section {
+	background-color: blue;
+	margin: 20px;
+	padding: 10px;
+	width: 50%;
+}
+a:link, a:visited {
+	font-size: 200%;
+	color: white;
+}
+a:hover, a:active {
+	font-size: 200%;
+	color: lightgray;
+}
+img:hover{
+	transform:scale(1.02,1.02);
+	animation:rock .5s infinite;
+}
+@keyframes rock{
+    0% {transform:rotate(0deg) scale(1.02,1.02)}
+    25% {transform:rotate(-5deg) scale(1.02,1.02)}
+    75% {transform:rotate(5deg) scale(1.02,1.02)}
+    100% {transform:rotate(0deg) scale(1.02,1.02)}
+}
+small {
+	font-size: 25%;
+}
